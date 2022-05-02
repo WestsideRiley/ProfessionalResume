@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #304145;
+}
+
+/*styling for the header and navigation section of the page*/
+
+header {
+    padding: 20px 35px;
+    background-color: #304145;
+}
+
+header img{
+height: 40px;
+width: 40px;
+justify-content: space-around;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color:#ffffff;
+    margin: 0;
+    display: inline-flex;
+}
+
+header a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+header nav{
+    float: right;
+    margin: auto;
+    padding-bottom: 20%;
+}
+
+header nav ul li {
+    display: inline-flex;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/*styling applied to the "about me" section of the page and the main banner*/
+
+section{
+    padding: 60px;
+    display: block;
+  }
+
+.hero{
+    background-image: url("../Images/red-background.jpg");
+    height: 700px;
+    background-size: cover ;
+    background-position: center;
+}
+  .intro{
+      text-align: center;
+  }
+
+  .intro p{
+      line-height: 1.7;
+      color: #304145;
+      width: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+/* styling for the "my Projects" section of the page*/
+
+.projects{
+    text-align: center;
+    background:#304145;
+    position: relative;
+  }
+
+.projects div{
+    margin-bottom: 0px;
+    position: relative;
+}
+.projects .main{
+  position: relative;
+}
+
+.projects .main img{
+    width: 1000px;
+    height: auto;
+    margin: 0;
+    border: #BD3147 solid 5px;
+    position: relative;
+}
+
+.projects .sub img{
+  width: 500px;
+  height: 300px;
+  margin: 30px 0;
+  border: #BD3147 solid 5px;
+  position: relative;
+}
+
+.main .imagetext{
+    position: absolute;
+    left: 45%;
+    top:0px;
+    background-color: #BD3147;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.main .imagetext p{
+  color: white;
+}
+
+.sub .imagetext{
+  position: absolute;
+  left: 45%;
+  top:0px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.projects h3{
+    color: white;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.projects p{
+    color: #BD3147;
+    font-size: 23px;
+}
+
+.projects span{
+    font-size: 38px;
+}
+
+/*styling rules applied to images and divs on the page*/
+
+ .section-title{
+      font-size: 55px;
+      color: #BD3147;
+      margin-bottom: 35px;
+      padding: 0 100px 20px 100px;
+      border-bottom: 3px solid;
+      display: inline-flex;
+      margin-bottom: 35px;
+  }
+
+  .primary-border{
+    border-color:#BD3147;
+  }
+
+  .secondary-border{
+    border-color: #BD3147;
+  }
+
+  .tertiary-border{
+    border-color: #304145;
+  }
+/*Styling for the resume section of the page*/
+
+  .resume {
+    text-align: center;
+  }
+
+/*Styling for the "Contact Me" Section of the page*/
+
+  .contact {
+    text-align: center;
+    background: #BD3147;
+  }
+
+  .contact h2 {
+    color:white;
+    
+  }
+  .contact-info div {
+    width: 410px;
+    display: inline-flex;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+    justify-content: center;
+  }
+ 
+  .contact-info h3 {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #304145;
+  }
+
+  ul{
+     margin: 15px 20px;
+     list-style-type: none;
+  }
+
+  .contact-info img{
+    height: 50px;
+    width: 50px;
+  }
+  .contact-info li {
+    display:inline-flex;
+    justify-content: center;
+   
+  }
+ 
+/* Styling for the footer of the page with styles input for potential text*/
+
+  footer{
+    background:#304145;
+    width:100%;
+    padding: 40px 35px;
+}
+
+footer h2{
+    display: inline;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a{
+    color: #ffffff;
+}
